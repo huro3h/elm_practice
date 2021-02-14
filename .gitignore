@@ -1,0 +1,8 @@
+.idea
+node_modules
+
+## from gitignore/Elm.gitignore
+# elm-package generated files
+elm-stuff
+# elm-repl generated files
+repl-temp-*
