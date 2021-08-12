@@ -1,7 +1,8 @@
-module Hello exposing (main)
-
-import Html exposing (..)
-import Html.Attributes exposing (..)
-
-main =
-    a [ href "https://elm-lang.org" ] [ text "elm" ]
+howMany number =
+  case number of
+    1 ->
+      "one"
+    2 ->
+      "two"
+    _ ->
+      "nothing"
